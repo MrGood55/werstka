@@ -75,7 +75,16 @@
     width: 30%;
 
 }
-/* @media (min-width: 411px) and (min-height: 731px) { ... } */
+@media (max-width:988px) {
+    .card{
+        width: 48%;
+    }
+}
+@media (max-width:734px) {
+    .card{
+        width: 80%;
+    }
+}
 .card_img{
     width: 80%;
     height: 60%;
@@ -147,14 +156,61 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-
+    
     
     width: 100%;
+}
+
+@media (max-width: 988px)  {
+    .header{
+        flex-wrap: wrap;
+    }
+    .header_block_left{
+        width: 45%;
+    } 
+    .header_block_center{
+        width: 45%;
+        
+    }
+    .header_block_right{
+        width: 45%;
+        
+    }
+     
+    
+}
+@media (max-width: 734px)  {
+    .header{
+        display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+    .header_block_left{
+        width: 100%;
+    } 
+    .header_block_center{
+        width: 100%;
+        
+    }
+    .header_block_right{
+        width: 100%;
+        
+    }
+    .header_title{
+        font-size: 128%;
+    }
+    .header_block_center>p{
+        width: 80%;
+        margin: 0 2%;
+        font-size: inherit;
+    }
+    
 }
 .header_item{
     display: flex;
     flex-direction: column;
     align-items: center;
+    
     margin: 0 1.5%;
     padding-bottom: 10px;
     
@@ -256,17 +312,28 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-
+    flex-wrap: wrap;
     list-style: none;
     height: 50px;
 
     /* background-color: #827d7d ;#a37e56 */
     background-color: #fff ;
-
-
-
+ 
+}
+/* and (min-height: 768px) */
+@media (max-width: 988px)  {
+    .menu ul{
+        height: 100px;
+    } 
     
 }
+@media (max-width: 564px)  {
+    .menu ul{
+        height: 150px;
+    } 
+    
+}
+
 .menu ul li{
     line-height: 100%;
 }
@@ -309,6 +376,14 @@
     
     margin-left: 30%;
     margin-right: 30%;
+    
+}
+
+@media (max-width:869px){
+    .about{
+        margin-left: 15%;
+        margin-right: 15%;
+    }
     
 }
 .about>h1{
@@ -387,10 +462,12 @@
     text-transform: uppercase;
     font-size: 22px;
     margin-bottom: 10px;
+    text-align: center;
 }
 .event>p{
     color: #7a7a7a;
     margin-bottom:15px;
+    text-align: center;
 }
 
 .text-field__input {
@@ -461,8 +538,15 @@
     
     /* content: ''; */
 }
+
+@media (max-width:758px){
+    /* height:; */
+}
+
 .footer_wrapper{
     margin: 0 10%;
+    /* height: 100%;
+    padding: 10px 0; */
     display: flex;
     flex-direction: row;
     justify-content: space-around;
