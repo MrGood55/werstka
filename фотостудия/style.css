@@ -8,6 +8,11 @@
     font-size: 14px;
     font-family: Arial, Sans-serif;
 }
+@media (max-width:758px){
+    * {
+        font-size: 8px;
+    }
+}
 
 *,
 *::before,
@@ -18,16 +23,9 @@
 
 /* background-image */
 .background-image{
-    /* background: url(./img/background-image.jpg); */
-    /* background: url(./img/фон_котики_1.jpg); */
-    
     background: url(./img/глубой-кирпич.jpg);
-    /* height: 100vh; */
     height: 100%;
-
-   
     background-repeat: repeat;
-    /* background-size:cover; */
 }
 
 /* Wrapper-for-content */
@@ -113,7 +111,7 @@
 
     
     height: 70px;
-    /* width: 50%; */
+
    
     border:1px solid #000;
     border-radius: 30px;
@@ -144,10 +142,7 @@
     padding: 0 30px;
     
 }
-/* .bordered_item{
-    border: 2px solid #000;
-    
-} */
+
 
 
 
@@ -238,7 +233,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    /* justify-content: center; */
+
     
 
 }
@@ -315,12 +310,10 @@
     flex-wrap: wrap;
     list-style: none;
     height: 50px;
-
-    /* background-color: #827d7d ;#a37e56 */
     background-color: #fff ;
  
 }
-/* and (min-height: 768px) */
+
 @media (max-width: 988px)  {
     .menu ul{
         height: 100px;
@@ -349,11 +342,7 @@
     line-height: 50px;
 }
 .menu ul li a:hover{
-    /* background-color: #f0c427; */
-    /* color: #f0c427;0db9b9 */
     color: #0db9b9;
-
-
 }
 .hr_full{
     width: 100%;
@@ -460,7 +449,7 @@
 }
 .event_title{
     text-transform: uppercase;
-    font-size: 22px;
+    font-size: 157%;
     margin-bottom: 10px;
     text-align: center;
 }
@@ -539,14 +528,12 @@
     /* content: ''; */
 }
 
-@media (max-width:758px){
-    /* height:; */
-}
+
+
 
 .footer_wrapper{
     margin: 0 10%;
-    /* height: 100%;
-    padding: 10px 0; */
+
     display: flex;
     flex-direction: row;
     justify-content: space-around;
