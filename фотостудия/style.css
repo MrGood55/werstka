@@ -565,4 +565,28 @@
     margin-bottom: 8px;
 }
 
+/* Contacts */
+.contacts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    margin-left: 30%;
+    margin-right: 30%;
+    
+}
 
+@media (max-width:869px){
+    .contacts{
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+    
+}
+.contacts>h1{
+    margin-bottom: 10px;
+}
+.contacts>p{
+    margin-top: 10px;
+    text-align: center
+}
