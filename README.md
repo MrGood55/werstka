@@ -2,7 +2,8 @@
 
 just for Natalia
 
-![image](https://github.com/MrGood55/werstka/assets/72146326/350bb921-4637-42cc-a521-653f44295ad5)
+![image](https://github.com/MrGood55/werstka/assets/72146326/c9b701b4-4fe6-4350-b7de-1ac57cf8f148)
+
 
 
 
