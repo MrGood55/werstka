@@ -20,6 +20,50 @@
 	box-sizing: border-box;
 }
 
+/* Back */
+.back{
+    position: fixed;
+    
+    border: 1px solid #adadad;
+    border-radius: 100px;
+    
+    
+
+    /* position:absolute; */
+	bottom: 2.5%; /* добавили */
+    right: 2.5%;
+	
+	height:70px;
+	width:70px;
+    /* margin-bottom: ; */
+}
+.back>a:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 100px;
+}
+.back a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    height: 100%;
+    border-radius: 100px;
+    color: #adadad;
+    
+
+}
+.back a:hover{
+    color: #0db9b9;
+}
+/* div#menu:hover~div.back a[href="#back"] */
+
+div#menu:hover~div.back a[href="#menu"]
+
 
 /* background-image */
 .background-image{
@@ -295,6 +339,8 @@
 
 /* MENU */
 .menu{
+
+    
     width:100%;
     margin: 0 auto;
 }
@@ -340,6 +386,8 @@
     text-transform: uppercase;
     text-decoration: none;
     line-height: 50px;
+
+    
 }
 .menu ul li a:hover{
     color: #0db9b9;
@@ -350,6 +398,13 @@
     background-color: #adadad;
 }
 
+
+div#about:hover~.menu ul li a[href="#about"]
+div#ulsugy:hover~.menu ul li a[href="#ulsugy"]
+div#studios:hover~.menu ul li a[href="#studios"]
+div#event:hover~.menu ul li a[href="#event"]
+div#gallery:hover~.menu ul li a[href="#gallery"]
+div#contacts:hover~.menu ul li a[href="#contacts"]
 
 /* About */
 .hr{
